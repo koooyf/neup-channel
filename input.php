@@ -12,4 +12,11 @@
    }
    mysql_free_result($result);
   mysql_close($shuru);
-?>          
+?>  
+<html>
+<body>
+<form action="index.php" meth="post">
+<input type="submit" value="返回">
+</form>
+</body>
+</html>        
