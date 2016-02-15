@@ -23,9 +23,14 @@ $testl=mysql_fetch_array($rsl);
 }
 $html = <<<HTML
     <form action="session.php" method="post">
-      <p>you can delete your records</p>
-        <input type="submit" value="delete" /><br />
+   <br/>
+        <input type="submit" value="删除记录" /><br />
     </form>
+ <form action="deletecookie.php" method="post">
+ 输入你想封的饼干号<br/>
+ <input type="text" name="cookie"><br/>
+ <input type="submit" value="封饼干">
+ </form>
 HTML;
    echo $html; 
    }
