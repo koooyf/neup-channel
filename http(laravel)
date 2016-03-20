@@ -9,4 +9,4 @@ Route::get('/',function()
 
 
 
-Route::get('\','sitescontroller@index');
+Route::get('233','sitescontroller@index');
