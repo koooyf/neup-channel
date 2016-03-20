@@ -9,11 +9,4 @@ Route::get('/',function()
 
 
 
-class sitescontroller extends controller
-{
-    public function index()
-    {
-      return view('index');
-    }
-};
 Route::get('\','sitescontroller@index');
