@@ -1,0 +1,9 @@
+@extion('app')
+@seection('content')
+<h1>your frind:  </h1>
+<ur>
+ @foreach($people as $person)
+   <li>{{$person}} </li>
+   @endforeach
+</ur>
+@stop
