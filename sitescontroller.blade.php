@@ -4,5 +4,9 @@ class sitescontroller extends controller
     {
       return view('index');
     }
-    public function 
+    public function 233()
+    {
+      $people=['nima','niba','nijiejie'];
+    return view('site.233',compact('people'))
+    }
 };
