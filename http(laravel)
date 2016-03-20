@@ -1,0 +1,19 @@
+<?php
+Route::get('/',function(){
+  return view('index');
+});
+Route::get('/',function()
+{
+   return 'hello world';
+})
+
+
+
+class sitescontroller extends controller
+{
+    public function index()
+    {
+      return view('index');
+    }
+};
+Route::get('\','sitescontroller@index');
